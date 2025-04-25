@@ -4,7 +4,7 @@ st.title("Multiplier")
 
 # Inputs
 a = st.number_input("First number", value=0.0, step=1)
-b = st.number_input("Second number", value=0.0, format="%.4f")
+b = st.number_input("Second number", value=0.0, step=1)
 
 # Multiply button
 if st.button("Multiply"):
